@@ -12,6 +12,9 @@ import React, {useEffect, useState} from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
 import AwesomeModule from 'react-native-awesome-module';
 
+import {getStorybookUI} from '@storybook/react-native';
+getStorybookUI({});
+
 const App = () => {
   const [result, setResult] = useState(0);
 
